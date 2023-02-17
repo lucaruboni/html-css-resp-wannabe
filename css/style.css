@@ -199,3 +199,32 @@ img {
     
 }
 
+@media screen and (min-width: 768px) and (max-width:1160px) {
+ 
+    .site-header{
+        display: flex;
+        max-width: 80%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .lessons{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .steps{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .why-us{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+}
