@@ -155,7 +155,47 @@ img {
         max-width: 100%;
     }
 
-
-
  }
+
+@media screen and (max-width: 480px) {
+    .site-header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .lessons{
+        display: flex;
+    
+    }
+
+    .row{
+        flex-direction: column;
+
+    }
+
+    .col{
+        align-self: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+    
+    }
+
+    .steps{
+        display: flex;
+    
+    }
+
+    .why-us{
+        display: flex;
+    
+    }
+
+    
+}
 
